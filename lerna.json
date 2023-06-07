@@ -1,0 +1,19 @@
+{
+  "npmClient": "yarn",
+  "packages": [
+    "packages/*"
+  ],
+  "ignoreChanges": [
+    "**/*.md"
+  ],
+  "command": {
+    "version": {
+      "ignore": [
+        "**/*.md"
+      ]
+    }
+  },
+  "changelogPreset": "conventionalcommits",
+  "useWorkspaces": true,
+  "version": "independent"
+}
